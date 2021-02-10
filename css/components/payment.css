@@ -1,0 +1,88 @@
+.payment{
+	background-image: url('../../img/png/granite.png');
+	background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.payment-2{
+	background-color: white;
+	background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.payment__content{
+	padding: 100px 50px;
+}
+
+.payment__head{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-family: 
+}
+
+.payment__head-2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #000;
+	font-family: 
+
+}
+
+.payment__types{
+	margin-top: 50px;
+}
+
+.payment__one{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	background-color: #42f2cb;
+	padding: 16px 30px;
+	margin: 10px; 
+}
+
+.payment__one:hover{
+	background-color: #d5f6ed;
+}
+
+.payment__five{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	background-color: #d5f6ed; 
+	padding: 16px 30px;
+	margin: 10px; 
+}
+
+.payment__five:hover{
+	background-color: #42f2cb;
+}
+
+@media(max-width: 768px){
+	.payment__head, .payment__head-2 {
+		font-size: 24px;
+	}
+	.payment__one{
+		font-size: 12px;
+	}
+
+	.payment__five{
+		font-size: 12px;
+	}
+}
+
+@media(max-width: 500px){
+	.payment__head, .payment__head-2 {
+		font-size: 16px;
+	}
+	.payment__one{
+		font-size: 9px;
+	}
+
+	.payment__five{
+		font-size: 9px;
+	}
+}

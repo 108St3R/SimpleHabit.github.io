@@ -1,0 +1,25 @@
+.navbar__logo{
+	padding: 10px;
+}
+
+.navbar__item{
+	font-family: Montserrat;
+	font-weight: 600;
+	padding: 4px 16px;
+}
+
+.navbar__item:hover .nav-link{
+	color: #42f2cb;
+}
+
+.navbar__basket:hover{
+	color: #42F2CB;
+}
+
+
+.navbar__button{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	background: #42F2CB;
+	border-width: 0;
+}

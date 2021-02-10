@@ -1,0 +1,58 @@
+.review{
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+
+.review__pic{
+	width: 200px;
+	height: 200px;
+	border-radius: 500px;
+}
+
+.review__comment{
+	font-family: 'Bodoni moda', sans-serif;
+	font-weight: 800;
+	font-size: 32px;
+
+}
+
+.review__author{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	color: #42f2cb;
+}
+
+@media(max-width: 992px){
+	.review__pic{
+		width: 100%;
+		height: 100%;
+	}
+
+	.review__comment{
+		font-size: 24px;
+	}
+}
+
+@media(max-width: 768px){
+	.review__pic{
+		width: 100%;
+		height: 100%;
+	}
+	.review__comment{
+		font-size: 18px;
+	}
+}
+@media(max-width: 576px){
+	.review__pic{
+		width: 20%;
+		height: 20%;
+		margin-bottom: 30px;
+	}
+	.review__comment{
+		font-size: 12px;
+	}
+	.review__author{
+		font-size: 14px;
+	}
+}

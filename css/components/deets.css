@@ -1,0 +1,54 @@
+.deets{
+	margin-top: 50px; 
+	margin-bottom: 100px; 
+}
+.deets__intro{
+	font-size: 22px;
+	color: #42f2cb;
+}
+
+.deets__head{
+	font-size: 44px;
+	font-family: 'Bodoni Moda', serif;
+	font-weight: 800;
+	text-shadow:0 2.5px 4px rgba(0,0,0,0.5);
+}
+
+.deets__trailer{
+	margin-top: 50px; 
+}
+
+
+@media(max-width: 992px){
+	.deets__trailer iframe{
+		height: 400px;
+	}
+}
+
+@media(max-width: 768px){
+	.deets__intro{
+		font-size: 18px;
+	}
+
+	.deets__head{
+		font-size: 30px;
+	}
+
+	.deets__trailer iframe{
+		height: 300px;
+	}
+}
+
+@media(max-width: 500px){
+	.deets__intro{
+		font-size: 10px;
+	}
+
+	.deets__head{
+		font-size: 20px;
+	}
+
+	.deets__trailer iframe{
+		height: 200px;
+	}
+}

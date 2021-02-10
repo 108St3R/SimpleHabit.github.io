@@ -1,0 +1,30 @@
+.space{
+	background-color: #d5f6ed;
+	padding-top: 75px;
+}
+
+.space__comment{
+	width: 250px;
+}
+.space__man{
+	width: 250px;
+}
+
+@media(max-width: 768px){
+	.space__comment{
+		width: 150px;
+		top: 20px;
+	}
+	.space__man{
+		width: 150px;
+	}
+}
+@media(max-width: 500px){
+	.space__comment{
+		width: 100px;
+		top: 20px;
+	}
+	.space__man{
+		width: 100px;
+	}
+}

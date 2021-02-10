@@ -1,0 +1,64 @@
+.benefit{
+	background-color: #faf8f8;
+	margin-top: 75px;
+}
+
+.benefit__type{
+	padding-top: 50px;
+}
+
+
+.benefit__head{
+	font-size: 32px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.benefit__comment{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+@media (max-width: 1200px){
+  .benefit__pic{
+   	width: 450px; 
+   }
+}
+
+@media (max-width: 992px){
+  .benefit__pic{
+   	width: 100%; 
+   }
+  .benefit__head{
+  		font-size: 24px;
+  }
+  .benefit__comment{
+  	font-size: 14px;
+  }
+}
+
+@media(max-width: 768px){
+	.benefit__pic{
+   	width: 100%; 
+   }
+  .benefit__head{
+  		font-size: 18px;
+  }
+  .benefit__comment{
+  		font-size: 12px;
+  }
+}
+
+@media(max-width: 576px){
+	.benefit__pic{
+		justify-content: center;
+   	width: 50%; 
+   }
+  .benefit__head{
+  		font-size: 18px;
+  }
+  .benefit__comment{
+  		font-size: 12px;
+  }
+}

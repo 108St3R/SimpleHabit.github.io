@@ -1,0 +1,19 @@
+body{
+	height: 300vh;
+}
+
+.container{
+	max-width: 1140px;
+	width: 80%;
+	margin: 0 auto;
+	/*padding: 0px 15px;*/
+}
+
+p{
+	font-size:10px;
+}
+
+.intro{
+	padding: 60px 30px;
+}
+
